@@ -40,7 +40,7 @@
 #endif
 
 /* ARM asynchronous clock */
-#define CONFIG_SYS_AT91_MAIN_CLOCK	16367660 /* 16.367 MHz crystal */
+#define CONFIG_SYS_AT91_MAIN_CLOCK	16000000 /* 16.367 MHz crystal */
 #define CONFIG_SYS_AT91_SLOW_CLOCK	32768
 #define CONFIG_SYS_HZ			1000
 
@@ -74,8 +74,8 @@
 
 /* serial console */
 #define CONFIG_ATMEL_USART
-#define CONFIG_USART_BASE		ATMEL_BASE_DBGU
-#define CONFIG_USART_ID			ATMEL_ID_SYS
+#define CONFIG_USART_BASE		ATMEL_BASE_USART0
+#define CONFIG_USART_ID			ATMEL_ID_USART0
 #define CONFIG_BAUDRATE			115200
 
 /* LCD */
@@ -92,9 +92,9 @@
 
 /* LED */
 #define CONFIG_AT91_LED
-#define	CONFIG_RED_LED		AT91_PIN_PB7	/* the power led */
-#define	CONFIG_GREEN_LED	AT91_PIN_PB8	/* the user1 led */
-#define	CONFIG_YELLOW_LED	AT91_PIN_PC29	/* the user2 led */
+#define	CONFIG_RED_LED		AT91_PIN_PA24	/* the power led */
+#define	CONFIG_GREEN_LED	AT91_PIN_PA25	/* the user1 led */
+#define	CONFIG_YELLOW_LED	AT91_PIN_PA28	/* the user2 led */
 
 #define CONFIG_BOOTDELAY	3
 
@@ -287,7 +287,8 @@
 /* our CLE is AD22 */
 #define CONFIG_SYS_NAND_MASK_CLE		(1 << 22)
 #define CONFIG_SYS_NAND_ENABLE_PIN		AT91_PIN_PD15
-#define CONFIG_SYS_NAND_READY_PIN		AT91_PIN_PA22
+#define CONFIG_SYS_NAND_READY_PIN		AT91_PIN_PB19
+#define CONFIG_SYS_NAND_WP_PIN			AT91_PIN_PB18
 #endif
 
 /* Ethernet */

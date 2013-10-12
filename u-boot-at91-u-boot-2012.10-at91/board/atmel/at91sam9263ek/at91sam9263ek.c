@@ -84,9 +84,11 @@ static void at91sam9263ek_nand_hw_init(void)
 		       AT91_SMC_MODE_TDF_CYCLE(2),
 		&smc->cs[3].mode);
 
-	writel(1 << ATMEL_ID_PIOA | 1 << ATMEL_ID_PIOCDE,
+	writel(1 << ATMEL_ID_PIOB | 1 << ATMEL_ID_PIOCDE,
 		&pmc->pcer);
 
+	/* Configure WP */
+	at91_set_gpio_input(CONFIG_SYS_NAND_WP_PIN, 1);
 	/* Configure RDY/BSY */
 	at91_set_gpio_input(CONFIG_SYS_NAND_READY_PIN, 1);
 
@@ -254,7 +256,8 @@ int board_early_init_f(void)
 		(1 << ATMEL_ID_PIOCDE),
 		&pmc->pcer);
 
-	at91_seriald_hw_init();
+	//at91_seriald_hw_init();
+	at91_serial0_hw_init();
 	return 0;
 }
 

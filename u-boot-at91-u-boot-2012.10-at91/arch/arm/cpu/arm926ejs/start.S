@@ -334,6 +334,7 @@ _nand_boot_ofs:
 	mov	r0, r5		/* gd_t */
 	mov	r1, r6		/* dest_addr */
 	/* jump to it ... */
+	ldr lr ,=board_init_r
 	mov	pc, lr
 
 _board_init_r_ofs:
