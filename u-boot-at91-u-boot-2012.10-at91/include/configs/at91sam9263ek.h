@@ -293,7 +293,8 @@
 
 /* Ethernet */
 #define CONFIG_MACB			1
-#define CONFIG_RMII			1
+#define CONFIG_MII			1
+#undef CONFIG_RMII
 #define CONFIG_NET_RETRY_COUNT		20
 #define CONFIG_RESET_PHY_R		1
 

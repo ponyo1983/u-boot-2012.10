@@ -190,8 +190,9 @@ void at91_macb_hw_init(void)
 void at91_uhp_hw_init(void)
 {
 	/* Enable VBus on UHP ports */
-	at91_set_pio_output(AT91_PIO_PORTA, 21, 0);
-	at91_set_pio_output(AT91_PIO_PORTA, 24, 0);
+//	at91_set_pio_output(AT91_PIO_PORTA, 21, 0);
+//	at91_set_pio_output(AT91_PIO_PORTA, 24, 0);
+	at91_set_pio_output(AT91_PIO_PORTE, 15, 0);
 }
 #endif
 
