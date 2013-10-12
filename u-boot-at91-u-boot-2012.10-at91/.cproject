@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base.1917523654">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base.1917523654" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base.1917523654" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base.1917523654.578928743" name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base.1891019460" name="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.toolchain.base">
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.processor.28106379" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.processor"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.architecture.1026306716" name="Architecture" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.architecture"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.thumb.1092168841" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.thumb"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.thumbinterwork.650748484" name="Thumb interwork (-mthumb-interwork)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.thumbinterwork"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.endiannes.2147366546" name="Endianness" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.endiannes"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.fpu.abi.1223031399" name="Float ABI" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.fpu.abi"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.fpu.unit.254152011" name="FPU Type" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.fpu.unit"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.other.486469251" name="Other target flags" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.target.other"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.level.1826515525" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.level"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.format.353341630" name="Debug format" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.format"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.other.629399077" name="Other debugging flags" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.other"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.prof.1483970855" name="Generate prof information (-p)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.prof"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.gprof.88972462" name="Generate gprof information (-pg)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.debugging.gprof"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.createflash.445309095" name="Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.createflash"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.createlisting.1520198488" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.createlisting"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.printsize.569297446" name="Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.option.addtools.printsize"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.platform.base.1546256943" isAbstract="false" name="OS X Platform" osList="macosx" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.platform.base"/>
+							<builder id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.builder.base.1967012470" managedBuildOn="false" name="ARM OS X GNU Make builder (Sourcery Lite Linux).Default" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.builder.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.assembler.base.611144888" name="ARM OS X GCC Assembler (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.assembler.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.c.compiler.base.204133668" name="ARM OS X GCC C Compiler (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.c.compiler.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.cpp.compiler.base.1166625081" name="ARM OS X GCC C++ Compiler (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.cpp.compiler.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.c.linker.base.1053193012" name="ARM OS X GCC C Linker (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.c.linker.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.cpp.linker.base.278274504" name="ARM OS X GCC C++ Linker (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.cpp.linker.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.archiver.base.859328618" name="ARM OS X GCC Archiver (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.createflash.base.519851419" name="ARM OS X GNU Create Flash Image (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.createflash.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.createlisting.base.50006797" name="ARM OS X GNU Create Listing (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.createlisting.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.printsize.base.2053259509" name="ARM OS X GNU Print Size (Sourcery Lite Linux)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcerylinux.macosx.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="u-boot-at91-u-boot-2012.10-at91.null.2008990547" name="u-boot-at91-u-boot-2012.10-at91"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+</cproject>
