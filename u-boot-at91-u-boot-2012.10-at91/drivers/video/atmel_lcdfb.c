@@ -32,6 +32,8 @@
 #include <atmel_9x5_lcdc.h>
 #endif
 
+#ifdef CONFIG_LCD
+
 int lcd_line_length;
 int lcd_color_fg;
 int lcd_color_bg;
@@ -57,6 +59,7 @@ short console_row;
 
 #define lcdc_readl(mmio, reg)		__raw_readl((mmio)+(reg))
 #define lcdc_writel(mmio, reg, val)	__raw_writel((val), (mmio)+(reg))
+
 
 void lcd_setcolreg(ushort regno, ushort red, ushort green, ushort blue)
 {
@@ -344,3 +347,4 @@ ulong calc_fbsize(void)
 	return ((panel_info.vl_col * panel_info.vl_row *
 		NBITS(panel_info.vl_bpix)) / 8) + PAGE_SIZE;
 }
+#endif
