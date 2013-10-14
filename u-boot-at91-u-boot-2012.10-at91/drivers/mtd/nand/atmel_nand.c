@@ -37,7 +37,8 @@
 #include <watchdog.h>
 
 #ifdef CONFIG_ATMEL_NAND_HWECC
-
+#define AT91_BASE_SYS 		0xFFFFC000
+#define CONFIG_SYS_NAND_ECC_BASE		0x2000
 /* Register access macros */
 #define ecc_readl(add, reg)				\
 	readl(AT91_BASE_SYS + add + ATMEL_ECC_##reg)
